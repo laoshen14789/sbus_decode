@@ -192,7 +192,6 @@ SBUS_CH_Struct SBUS_CH;
 //?sbus????????
 uint8_t update_sbus(uint8_t *buf)
 {
-    int i;
     if (buf[23] == 0)
     {
         SBUS_CH.ConnectState = 1;
